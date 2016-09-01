@@ -1,0 +1,14 @@
+session'ipaddress'=store ip address of user
+session'browser'=store browser detail of user
+$_SESSION['login']=0; for login status
+$_SESSION['userid']=$email; to store email id of user
+emailstatus=for validation of email in signup
+$_SESSION['signupstatus']- to store the status of signup for message page
+have added a new column in user table:rights
+5 types of rights
+1.registered- user who have registered but not yet confirmed emailid
+2.verified- email id verified
+3.alumni- whose details has been verified by admin
+4.admin-who manages the portal day to day
+5.super- the root user for the portal
+ $_SESSION['usernotfound']=0;
